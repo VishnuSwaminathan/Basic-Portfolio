@@ -1,0 +1,80 @@
+body {
+  background-image: url('../images/qbkls/qbkls.png');
+  background-repeat: repeat-y repeat-x;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0 10%;
+  overflow: hidden;
+  background-color: #63a2bf;
+}
+
+li:first-child {
+  float: left;
+  display: block;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  padding: 20px;
+  background-color: #426c7f;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 25px 25px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #426c7f;
+}
+
+.flex-container {
+  display: flex;
+  height: ;
+  margin: 10%;
+  background-color: lightslategray;
+  color: whitesmoke;
+  flex-wrap: wrap;
+}
+
+#AboutMe {
+  flex-direction: row;
+  align-content: flex-start;
+  margin: 2% 0 0 5%;
+}
+
+h1 {
+  font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+#AboutMePara {
+  margin: 2% 5%;
+}
+
+#BioPic {
+  height: 100px;
+  width: 100px;
+  float: left;
+  margin: 0 10px 0 0;
+}
+
+#Contact {
+  flex-direction: column;
+  align-content: flex-start;
+  margin: 2% 0 0 5%;
+}
+
+#ContactForm {
+  flex-direction: column;
+  margin: 2% 5%;
+}
