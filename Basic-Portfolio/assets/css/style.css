@@ -40,7 +40,7 @@ li a:hover {
 
 .flex-container {
   display: flex;
-  height: ;
+  /* height: ; */
   margin: 10%;
   background-color: lightslategray;
   color: whitesmoke;
